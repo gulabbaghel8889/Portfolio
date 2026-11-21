@@ -160,9 +160,9 @@ export const projectsData = [
       "User Authentication & secure access",
       "Real-Time Updates for agricultural trade and market trends",
     ],
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Vercel"],
     githubUrl: "https://github.com/gulabbaghel8889/KrishiConnect",
-    liveUrl: null, // No fake live demo link
+    liveUrl: "https://krishi-connect-iota.vercel.app/",
     role: "Developed frontend, backend APIs, database design, and authentication.",
     featured: true,
   },
@@ -248,7 +248,7 @@ export const githubData = {
       description: "Full-stack smart agriculture platform connecting farmers, buyers, and agricultural experts.",
       url: "https://github.com/gulabbaghel8889/KrishiConnect",
       tech: "React.js, Node.js, Express.js, MongoDB",
-      liveDemo: null,
+      liveDemo: "https://krishi-connect-iota.vercel.app/",
     },
   ],
 };

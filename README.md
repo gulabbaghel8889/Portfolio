@@ -49,7 +49,8 @@ A modern, SaaS-inspired, dark-themed portfolio website for **Gulab Baghel** (MER
 - **Features**: Patient Management, Diagnostic Test Records, Report Generation, Authentication & Authorization, Admin Dashboard, Real-Time Test Status Tracking, Responsive Design.
 - **Tech**: React.js, Node.js, Express.js, MongoDB.
 
-### 2. 🌾 Krishi Connect
+### 2. 🌾 Krishi Connect (Farmer Harvest Connect)
+- **Live Demo**: [krishi-connect-iota.vercel.app](https://krishi-connect-iota.vercel.app/)
 - **GitHub**: [github.com/gulabbaghel8889/KrishiConnect](https://github.com/gulabbaghel8889/KrishiConnect)
 - **Description**: Full-stack smart agriculture platform connecting farmers, buyers, and agricultural experts.
 - **My Role**: Developed frontend, backend APIs, database design, and authentication.

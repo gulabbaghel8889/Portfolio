@@ -152,9 +152,12 @@ export const Projects = ({ onSelectProject }) => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-slate-950/80 via-slate-950/40 to-transparent" />
 
-                  <div className="absolute top-4 left-4">
+                  <div className="absolute top-4 left-4 flex flex-wrap gap-2">
                     <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-slate-950/80 text-teal-300 border border-teal-500/40 backdrop-blur-md">
                       FEATURED FULL-STACK
+                    </span>
+                    <span className="px-3 py-1 rounded-full text-xs font-mono font-medium bg-slate-950/80 text-teal-300 border border-teal-500/40 backdrop-blur-md">
+                      Live on Vercel
                     </span>
                   </div>
                 </div>
@@ -223,11 +226,22 @@ export const Projects = ({ onSelectProject }) => {
                         href={secondProject.githubUrl}
                         target="_blank"
                         rel="noreferrer"
-                        className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs sm:text-sm font-semibold transition-all hover:scale-[1.02]"
+                        className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs sm:text-sm font-semibold transition-all hover:scale-[1.02]"
                       >
                         <FiGithub className="w-4 h-4" />
-                        <span>Source Code on GitHub</span>
+                        <span>Source Code</span>
                       </a>
+                      {secondProject.liveUrl && (
+                        <a
+                          href={secondProject.liveUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-400 hover:to-cyan-400 text-slate-950 text-xs sm:text-sm font-bold transition-all shadow-md shadow-teal-500/25 hover:scale-[1.02]"
+                        >
+                          <span>Live Demo</span>
+                          <FiExternalLink className="w-4 h-4 stroke-[2.5]" />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

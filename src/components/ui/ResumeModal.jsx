@@ -86,6 +86,7 @@ PROJECTS
 
 2. Krishi Connect
    GitHub: https://github.com/gulabbaghel8889/KrishiConnect
+   Live Demo: https://krishi-connect-iota.vercel.app/
    Description: A full-stack smart agriculture platform connecting farmers, 
    buyers, and agricultural experts.
    Features:
@@ -376,14 +377,25 @@ ACHIEVEMENTS
                 <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800/80">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
                     <h5 className="font-bold text-white text-sm">2. Krishi Connect</h5>
-                    <a
-                      href="https://github.com/gulabbaghel8889/KrishiConnect"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-teal-400 hover:underline text-xs"
-                    >
-                      GitHub Repo
-                    </a>
+                    <div className="flex items-center gap-3 text-xs">
+                      <a
+                        href="https://github.com/gulabbaghel8889/KrishiConnect"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-teal-400 hover:underline"
+                      >
+                        GitHub Repo
+                      </a>
+                      <span>•</span>
+                      <a
+                        href="https://krishi-connect-iota.vercel.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-cyan-400 hover:underline"
+                      >
+                        Live Demo
+                      </a>
+                    </div>
                   </div>
                   <p className="mt-1 text-xs text-slate-300">
                     A full-stack smart agriculture platform connecting farmers, buyers, and agricultural experts.
