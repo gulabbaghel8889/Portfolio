@@ -151,7 +151,7 @@ ACHIEVEMENTS
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white">Gulab Baghel — Official Profile &amp; CV</h3>
-                <p className="text-xs text-slate-400">MERN Stack Developer • GATE 2026 Qualified</p>
+                <p className="text-xs text-slate-400">MERN Stack Developer • Bansal College of Engineering</p>
               </div>
             </div>
 

@@ -12,7 +12,7 @@ export const Certifications = () => {
           badge="Honors & Training"
           title="Achievements &"
           highlight="Certifications"
-          subtitle="National competitive examination success, state-level sports achievements, and verified technical certifications."
+          subtitle="Academic milestones, state-level sports participation, and verified technical certifications."
         />
 
         {/* Real Achievements Section */}

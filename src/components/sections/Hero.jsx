@@ -67,7 +67,7 @@ export const Hero = ({ onOpenResume }) => {
             </span>
             <span className="text-teal-300 font-semibold">Available for Full Stack / MERN Roles</span>
             <span className="hidden sm:inline text-slate-500">•</span>
-            <span className="hidden sm:inline text-slate-400 font-mono text-xs">GATE 2026 Qualified</span>
+            <span className="hidden sm:inline text-slate-400 font-mono text-xs">B.Tech CSE • 8.27 CGPA</span>
           </motion.div>
 
           {/* Main Title & Typing Text */}
